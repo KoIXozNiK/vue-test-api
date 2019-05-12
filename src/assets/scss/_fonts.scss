@@ -1,0 +1,99 @@
+$font_path: '../fonts/';
+
+@font-face {
+  font-family: 'Sofia Pro Semi';
+  src: url($font_path + 'ssb/SofiaProSemiBold.eot');
+  src: local('Sofia Pro Semi Bold'), local('SofiaProSemiBold'),
+  url($font_path + 'ssb/SofiaProSemiBold.eot?#iefix') format('embedded-opentype'),
+  url($font_path + 'ssb/SofiaProSemiBold.woff2') format('woff2'),
+  url($font_path + 'ssb/SofiaProSemiBold.woff') format('woff'),
+  url($font_path + 'ssb/SofiaProSemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url($font_path + 'sl/SofiaProLight.eot');
+  src: local('Sofia Pro Light'), local('SofiaProLight'),
+  url($font_path + 'sl/SofiaProLight.eot?#iefix') format('embedded-opentype'),
+  url($font_path + 'sl/SofiaProLight.woff2') format('woff2'),
+  url($font_path + 'sl/SofiaProLight.woff') format('woff'),
+  url($font_path + 'sl/SofiaProLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url($font_path + 'sel/SofiaProExtraLight.eot');
+  src: local('Sofia Pro ExtraLight'), local('SofiaProExtraLight'),
+  url($font_path + 'sel/SofiaProExtraLight.eot?#iefix') format('embedded-opentype'),
+  url($font_path + 'sel/SofiaProExtraLight.woff2') format('woff2'),
+  url($font_path + 'sel/SofiaProExtraLight.woff') format('woff'),
+  url($font_path + 'sel/SofiaProExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url($font_path + 'sr/SofiaProRegular.eot');
+  src: local('Sofia Pro Regular'), local('SofiaProRegular'),
+  url($font_path + 'sr/SofiaProRegular.eot?#iefix') format('embedded-opentype'),
+  url($font_path + 'sr/SofiaProRegular.woff2') format('woff2'),
+  url($font_path + 'sr/SofiaProRegular.woff') format('woff'),
+  url($font_path + 'sr/SofiaProRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url($font_path + 'sm/SofiaProMedium.eot');
+  src: local('Sofia Pro Medium'), local('SofiaProMedium'),
+  url($font_path + 'sm/SofiaProMedium.eot?#iefix') format('embedded-opentype'),
+  url($font_path + 'sm/SofiaProMedium.woff2') format('woff2'),
+  url($font_path + 'sm/SofiaProMedium.woff') format('woff'),
+  url($font_path + 'sm/SofiaProMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url($font_path + 'sb/SofiaProBold.eot');
+  src: local('Sofia Pro Bold'), local('SofiaProBold'),
+  url($font_path + 'sb/SofiaProBold.eot?#iefix') format('embedded-opentype'),
+  url($font_path + 'sb/SofiaProBold.woff2') format('woff2'),
+  url($font_path + 'sb/SofiaProBold.woff') format('woff'),
+  url($font_path + 'sb/SofiaProBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url($font_path + 'sbl/SofiaProBlack.eot');
+  src: local('Sofia Pro Black'), local('SofiaProBlack'),
+  url($font_path + 'sbl/SofiaProBlack.eot?#iefix') format('embedded-opentype'),
+  url($font_path + 'sbl/SofiaProBlack.woff2') format('woff2'),
+  url($font_path + 'sbl/SofiaProBlack.woff') format('woff'),
+  url($font_path + 'sbl/SofiaProBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url($font_path + 'sul/SofiaProUltraLight.eot');
+  src: local('Sofia Pro UltraLight'), local('SofiaProUltraLight'),
+  url($font_path + 'sul/SofiaProUltraLight.eot?#iefix') format('embedded-opentype'),
+  url($font_path + 'sul/SofiaProUltraLight.woff2') format('woff2'),
+  url($font_path + 'sul/SofiaProUltraLight.woff') format('woff'),
+  url($font_path + 'sul/SofiaProUltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+

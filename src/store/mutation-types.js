@@ -1,0 +1,5 @@
+export const COMMENT_LIST = 'COMMENT_LIST';
+export const COMMENT_DETAIL = 'COMMENT_DETAIL';
+export const DELETE_COMMENT = 'DELETE_COMMENT';
+export const RESET_COMMENTS = 'RESET_COMMENTS';
+export const ADD_COMMENT = 'ADD_COMMENT';

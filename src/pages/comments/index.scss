@@ -1,0 +1,111 @@
+@import "../../assets/scss/vars";
+
+.comments{
+  &__title{
+    font: $sb;
+    font-size: 83.31px;
+    color: $black;
+    margin: 80px 0 100px;
+  }
+
+  &__item{
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 6.5px 11.258px 30px 0px rgba(17, 21, 24, 0.04);
+    margin-bottom: 40px;
+
+    &-title{
+      font: $sb;
+      font-size: 22px;
+      color: rgb(51, 51, 51);
+      line-height: 1.2;
+      font-weight: 400;
+    }
+
+    &-desc{
+      font: $sl;
+      font-size: 16px;
+      opacity: .8;
+      margin: 25px 0 50px;
+      max-height: 128px;
+      overflow: hidden;
+    }
+  }
+
+  &__bottom{
+    text-align: center;
+    margin: 120px 0;
+
+    &-quote{
+      font: $ssb;
+      font-size: 18.278px;
+      line-height: 1;
+      color: #888a8b;
+      margin-bottom: 45px;
+    }
+  }
+}
+
+@media screen and (max-width: 1380px){
+  .comments{
+    &__title {
+      font-size: 53px;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 991px){
+  .comments{
+    &__title {
+      margin: 70px 0 50px;
+
+    }
+    &__bottom {
+      margin: 40px 0 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .comments{
+    &__title {
+      margin: 70px 0 40px;
+    }
+    &__bottom {
+      margin: 25px 0 40px;
+
+      &-quote {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comments {
+    &__title {
+      font-size: 10vw;
+      margin: 50px 0 20px;
+    }
+
+    &__item{
+      &-title{
+        font-size: 18px;
+      }
+
+      &-desc{
+        font-size: 14px;
+        margin: 15px 0 30px;
+        max-height: 135px;
+      }
+    }
+
+    &__bottom {
+      &-quote {
+        font-size: 6vw;
+      }
+    }
+  }
+}

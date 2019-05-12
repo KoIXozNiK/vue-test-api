@@ -1,28 +1,57 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+	<div id="app">
+		<header class="menu" :class="{open: openMenu}">
+			<img src="@/assets/logo.png" alt="">
+			<div class="burger" @click="openMenu = !openMenu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="menu__items">
+				<div class="menu__close" @click="openMenu = !openMenu">
+					<span>close</span>
+				</div>
+				<router-link class="menu__item" @click.native="scrollGo('#about')" to="/">About Us</router-link>
+				<router-link class="menu__item" @click.native="scrollGo('#comment')" to="/">Write comment</router-link>
+				<router-link class="menu__item" to="/comments">Comments</router-link>
+			</nav>
+		</header>
+		<main class="body">
+			<router-view/>
+		</main>
+		<footer class="footer" >
+			<div class="footer__wrap">
+				<div class="footer__left">
+					<div class="footer__mail">mail@mailtest.com</div>
+					<div class="footer__tel">+30-6977664062</div>
+				</div>
+				<div class="footer__right">
+					<div class="footer__copy">
+						Copyright © 2019 Test All Rights Reserved.
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  export default {
+    name: 'app',
+    data() {
+      return {
+        openMenu: false
+      }
+    },
+	  methods: {
+      scrollGo: function(hashbang){
+        location.href = hashbang;
+      }
+	  },
   }
-}
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style src="./assets/scss/main.scss" lang="scss">
+
 </style>
